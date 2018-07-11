@@ -7,7 +7,7 @@ public class Main {
 
 		int min = scan.nextInt();
 		int ans = Integer.MIN_VALUE;
-		for (int i = 0; i < n - 1; i++) {
+		for (int i = 1; i < n; i++) {
 			int r = scan.nextInt();
 			ans = Math.max(ans, r - min);
 			min = Math.min(min, r);
